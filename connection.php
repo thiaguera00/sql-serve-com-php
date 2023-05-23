@@ -1,9 +1,9 @@
 <?php
 
-$server = "10.233.208.200";
-$username = "Power Bi";
-$password = "zk**8kp6";
-$database = "GestaoRh";
+$server = "teste";
+$username = "teste";
+$password = "teste";
+$database = "teste";
 
 try {
     $conn = new PDO("sqlsrv:server=$server;database=$database", $username, $password);
